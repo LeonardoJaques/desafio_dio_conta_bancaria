@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ContaTerminal",
+            "request": "launch",
+            "mainClass": "ContaTerminal",
+            "projectName": "ContaBanco",
+            "args": [
+                12345, // Número da conta
+                "067-8",  // Agência
+                "João Pessoa", // Nome do cliente
+                237.48  // Saldo
+            ]
+        }
+    ]
+}
